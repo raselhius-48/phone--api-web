@@ -18,6 +18,13 @@ const displayPhone = phones => {
     phones.forEach(phones => {
         console.log(phones)
 
+        // 1. create a div
+
+        const phoneCard = document.createElement('div');
+        phoneCard.classList = `card bg-gray-100 w-96 shadow-sm`
+
+
+
     });
 }
 loadPhone();
