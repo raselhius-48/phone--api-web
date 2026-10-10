@@ -14,6 +14,10 @@ const loadPhone = async () => {
 
 
 const displayPhone = phones => {
-    console.log(phones)
+    // console.log(phones)
+    phones.forEach(phones => {
+        console.log(phones)
+
+    });
 }
 loadPhone();
